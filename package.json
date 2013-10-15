@@ -1,0 +1,16 @@
+{
+	"name": "team-finder",
+	"description": "A community finding website for gamers",
+	"version": "0.0.1",
+    "private": true,
+    "dependencies": {
+		"express": "3.x",
+		"jade": "0.30.x",
+		"mongoose": "3.6.x",
+		"should": "1.2.x",
+		"step": "*",
+		"less-middleware": "*",
+		"express-form": "0.8.x"
+	},
+	"main": "lib/main.js"
+}

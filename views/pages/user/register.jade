@@ -1,0 +1,10 @@
+include ../../mixins/bootstrap-form-mixins
+extend ../../basic-layout
+block introduction
+	h1.large-title Create An Account
+block large-row
+	form(method='post', action='', role="form", class='form-horizontal')
+		+field-label-md('text', 'Username', 'username', 'register-username')#test
+		+field-label-md('email', 'Email', 'email', 'register-email')#test2
+		+field-label-md('password', 'Password', 'password', 'register-password')#test3
+		+submit('Register')

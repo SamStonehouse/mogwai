@@ -1,0 +1,12 @@
+
+extend ../../basic-layout
+include ../../mixins/bootstrap-form-mixins
+block introduction
+	h1.large-title Login
+block large-row
+	.narrow-container.box
+		form(method='post', action='', role="form", class='form page-form')
+			mixin field('email', 'Email', 'login-email')
+			mixin field('password', 'Password', 'login-password')
+			mixin checkbox('login-remember', 'Remember me')
+			mixin submit('Login')
