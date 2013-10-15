@@ -1,6 +1,6 @@
 {
-	"name": "team-finder",
-	"description": "A community finding website for gamers",
+	"name": "mogwai",
+	"description": "A risk-based web game",
 	"version": "0.0.1",
     "private": true,
     "dependencies": {
